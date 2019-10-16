@@ -1,0 +1,129 @@
+@charset "utf-8";
+/* CSS Document */
+
+#container {	
+	width: 1920px;	
+	height: 1080px;	
+	float: left;	
+	background: #FFF; /*white*/
+}
+
+#leftCol {
+	width: 674px;	
+	height: 814px;	
+	float: left;
+	margin-top: 133px; 
+	margin-right:16px; 
+	margin-left:140px;
+	background: #AFEEEE; /*pale turqoise*/
+}
+#rightCol{
+	width: 950px;	
+	height: 814px;	
+	float: left;
+	margin-top: 133px; 
+	margin-right:0px; 
+	margin-left: 0px;
+	background: #AFEEEE; /*pale turqoise*/
+}
+#leftBtn{
+	width: 243px;	
+	height: 57px;	
+	float: left;
+	margin-top: 24px; 
+	margin-right:0px; 
+	margin-left: 140px;
+	background: #AFEEEE; /*pale turqoise*/
+}
+#rightBtn{
+	width: 243px;	
+	height: 57px;	
+	float: left;
+	margin-top: 24px; 
+	margin-right:40px; 
+	margin-left: 1154px;
+	background: #AFEEEE; /*paleturqoise*/
+}
+#title{
+	font-size:500%; 
+	float: left;
+	margin-top: 221px; 
+	margin-left: 69px;''
+	color:black;
+
+}
+#name{
+	font-size:60px;
+	width:360px; 
+	height:80px;
+	float: left;
+	margin-top:0px; 
+	margin-left: 69px;
+	margin-right: 471px;
+	color:black;
+
+}
+#title2{
+	font-size:60px;
+	width:360px; 
+	height:80px;
+	float: left;
+	margin-top:184px; 
+	margin-left: 69px;
+	margin-right: 471px;
+	color:black;
+
+}
+#desc{
+	font-size:40px;
+	width:360px; 
+	height:80px;
+	float: left;
+	margin-top:184px; 
+	margin-left: 69px;
+	margin-right: 471px;
+	color:black;
+
+}
+#flbtn{
+	width: 330px;	
+	height: 100px;	
+	float: left;
+	margin-left: 69px;
+	margin-right:20px;
+	background: white; /* #FFF*/
+}
+#frbtn{
+	width: 330px;	
+	height: 100px;	
+	float: left;
+/*	margin-left: 421px;
+	margin-right: 197px;*/
+	background: white; /* #FFF*/
+}
+#btntext{
+	font-size:48px; 
+	text-align: center;
+	color:black;
+	line-height: 200%;
+}
+#btntext2{
+	font-size:36px; 
+	text-align: center;
+	color:black;
+	line-height: 160%;
+}
+.center {
+  margin-top: 102px;
+  margin-bottom: 102px;
+  margin-left:27px;
+  height:600px;
+  ;
+}
+.center2 {
+  margin-top: 102px;
+  margin-bottom: 102px;
+  margin-right:27px;
+  height:600px;
+  ;
+}
