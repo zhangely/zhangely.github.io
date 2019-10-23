@@ -1,0 +1,81 @@
+/* core styles */
+#gradBG {
+ 	width: 768px;
+	height: 1024px;
+	margin-top: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color:#FFCDB2 ;
+	background-image: linear-gradient(#FFCDB2, #FFB4A2, #E5989B, #B5838D);
+}
+@keyframes fade {
+  0%   {opacity: 0;}
+  25%  {opacity: .3;}
+  50%  {opacity: .6;}
+  100% {opacity: 1;}
+}
+#menu1 {
+	font-size: 50px;
+	font-family: helvetica;
+	float: right;
+	color: white;
+	margin-right: 306px;
+	margin-top: 375px;
+	animation-name: fade;
+  	animation-duration: 3s;
+  	animation-delay: 2s;
+}
+#menu234 {
+	font-size: 50px;
+	font-family: helvetica;
+	float: left;
+	color: white;
+	margin-top: 14px;
+	margin-right: 30px;
+	animation-name: fade;
+  	animation-duration: 3s;
+  	animation-delay: 2s;
+}
+#rectangle1 {
+	height: 31px;
+	width: 138px;
+	float: left;
+	background-color: white;
+	margin-top: 390px;
+	margin-right: 20px;
+}
+#rectangle2 {
+	height: 31px;
+	width: 202px;
+	float: left;
+	background-color: white;
+	margin-top: 30px;
+	margin-right: 20px;
+}
+#rectangle3 {
+	height: 31px;
+	width: 274px;
+	float: left;
+	background-color: white;
+	margin-top: 30px;
+	margin-right: 20px;
+}
+#rectangle4 {
+	height: 31px;
+	width: 335px;
+	float: left;
+	background-color: white;
+	margin-top: 30px;
+	margin-right: 20px;
+}
+.dot {
+  height: 50px;
+  width: 50px;
+  float: left;
+  background-color: #FFF;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 699px;
+  margin-left:15px;
+  margin-top: 15px;
+}
