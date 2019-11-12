@@ -1,0 +1,80 @@
+@charset "utf-8";
+/* CSS Document */
+
+#bg1 {	
+	top: 0;
+	left: 0;
+	width: 1920px;	
+	height: 1080px;		
+	background-image: url(sun3.png);
+	background-size: cover;
+	position: absolute;
+	z-index: 0;
+}
+
+#text1 {
+	top: 10;
+	left: 10;
+	font-size:100px;
+	width:360px; 
+	height:80px;
+	margin-top:54px; 
+	margin-left:789px;
+	position: absolute;
+	z-index: 1;
+	font-family: snell roundhand;
+	color: white;
+	animation-name: fade;
+  	animation-duration: 3s;
+}
+#text2 {
+	top: 10;
+	left: 10;
+	font-size:100px;
+	width:360px; 
+	height:80px;
+	margin-top:157px; 
+	margin-left:1247px;
+	position: absolute;
+	z-index: 1;
+	font-family: snell roundhand;
+	color: white;
+	animation-name: fade;
+  	animation-duration: 5s;
+}
+#text3 {
+	top: 10;
+	left: 10;
+	font-size:100px;
+	width:360px; 
+	height:80px;
+	margin-top:249px; 
+	margin-left:1421px;
+	position: absolute;
+	z-index: 1;
+	font-family: snell roundhand;
+	color: white;
+	animation-name: fade;
+  	animation-duration: 7s;
+}
+#text4 {
+	top: 10;
+	left: 10;
+	font-size:100px;
+	width:360px; 
+	height:80px;
+	margin-top:352px; 
+	margin-left:1678px;
+	position: absolute;
+	z-index: 1;
+	font-family: snell roundhand;
+	color: white;
+	animation-name: fade;
+  	animation-duration: 9s;
+}
+@keyframes fade {
+  0%   {opacity: 0;}
+  25%  {opacity: .3;}
+  50%  {opacity: .6;}
+  100% {opacity: 1;}
+}

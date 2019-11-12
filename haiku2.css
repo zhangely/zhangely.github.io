@@ -1,0 +1,38 @@
+@charset "utf-8";
+/* CSS Document */
+
+#bg1 {	
+	top: 0;
+	left: 0;
+	width: 1920px;	
+	height: 1080px;		
+	background-image: url(sun2.png);
+	background-size: cover;
+	position: absolute;
+	z-index: 0;
+}
+
+#text1 {
+	top: 10;
+	left: 10;
+	font-size:100px;
+	width:360px; 
+	height:80px;
+	margin-top:396px; 
+	margin-left:129px;
+	position: absolute;
+	z-index: 1;
+	font-family: snell roundhand;
+	animation-duration: 3s;
+  	animation-name: slidedown;
+}
+ @keyframes slidedown {
+  from {
+    margin-top: 0%;
+    width: 300%; 
+  }
+  to {
+    margin-top: 396px;
+    width: 100%;
+  }
+}
