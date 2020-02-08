@@ -1,0 +1,104 @@
+/*
+  TASK 2
+
+  Model the variables you created for Task 1 as an object,
+  and assign that object to a variable named `person1`.
+  Pay close attention to syntax!
+
+  Example:
+  var person1 = {
+    name: "Steven",
+    major: "information design and visualization",
+    year: 2020,
+    favorites: ["Chrono Trigger", "Final Fantasy VI", "Legend of Zelda: Ocarina of Time"],
+    fromBoston: false
+  };
+
+  */
+  var person1 = {
+    name: "Jack",
+    major: "Design",
+    year: 2023,
+    favorites: ["Ratatouille", "Lilo & Stitch", "Toy Story"],
+    fromBoston: true,
+    yearsUntilGrad: 3
+  };
+
+  /*
+  TASK 3
+
+  Repeat this process for at least 2 additional classmates,
+  creating 2 new variables named `person2` and `person3`.
+  Follow the same object structure as above.
+
+  */
+ var person2 = {
+    name: "Emily",
+    major: "Psychology",
+    year: 2020,
+    favorites: ["Big Hero 6", "Finding Nemo", "Coco"],
+    fromBoston: false,
+    yearsUntilGrad: 0
+  };
+ var person3 = {
+    name: "Ares",
+    major: "CS & Design",
+    year: 2024,
+    favorites: ["Kingdom Hearts", "Pokemon", "Undertale"],
+    fromBoston: false,
+    yearsUntilGrad: 4
+  };
+
+  /*
+  TASK 4
+
+  Represent your 3 people data in an array of objects, assigned to
+  a variable named `people`.
+  Each object inside of your array should contain the same data that
+  are included in `person1`, `person2`, and `person3` above.
+
+  Pay close attention to syntax!
+
+  Example:
+
+  var people = [
+    { ... },
+    { ... },
+    { ... }
+  ];
+
+  */
+
+var people = [ 
+ {person1},
+ {person2},
+ {person3},
+];
+
+  /*
+  TASK 5
+
+  Using a for() loop, iterate through each of the objects inside `people`.
+  For each person inside `people`, create a variable named `sentence` that
+  has the following string value:
+  [NAME] is studying [MAJOR].
+
+  Print each of these `sentence` strings to the console.
+
+  Example:
+  "Steven is studying information design and visualization."
+
+  ////////
+
+  Recall the basic pattern for using a for() loop to iterate over
+  items in an array:
+
+  for(var i = 0; i < ARRAY.length; i++) {
+    ... do something ...
+  }
+
+  */
+for(var i = 0; i <= people.length; i++) {
+  var sentence = name + " is studying " + major + ".";
+  }
+console.log(sentence)
